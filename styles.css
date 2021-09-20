@@ -1,0 +1,66 @@
+body, html {
+    margin:0;
+    padding:0;
+    font-family: arial;
+}
+
+body a {
+
+        color: #1096D5;
+        font-size: 16px;
+
+}
+
+main {
+    padding: 40px 50px 80px 50px;
+    background-color: white;
+    width: 70%;
+    max-width: 960px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    text-align: left;
+}
+
+main p {
+    font-size: 50px;
+    color: goldenrod;
+}
+
+
+main button {
+    padding: 0 10px;
+    height: 50px;
+    width: 200px;
+    max-width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    border: none;
+    background-color: #27ae61;
+    border: 1px solid #27ae61;
+    transition: 0.5s;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    min-width: 189px;
+    vertical-align: middle;
+}
+
+
+
+#stopwatch {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+    padding: 20px;
+    display: inline-block;
+    width: 180px;
+    max-width: 100%;
+    
+}
